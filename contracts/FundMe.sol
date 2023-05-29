@@ -66,6 +66,11 @@ contract FundMe {
         s_funders.push(msg.sender);
     }
 
+    /**
+     * @notice  this fuction makes sure that only the owner of this contract can withdraw
+     * @dev make sure to update all the balancings before updating the balances
+     */
+
     function withdraw() public onlyOwner {
         for (
             uint256 funderIndex = 0;
@@ -88,6 +93,11 @@ contract FundMe {
         require(callSuccess, "Call failed");
     }
 
+    /**
+     * @dev this function is made to save some gas
+     * //   aka gas optimization
+     */
+
     function cheaperWithdraw() public payable onlyOwner {
         address[] memory funders = s_funders;
         //mappings cant be in memory
@@ -103,6 +113,7 @@ contract FundMe {
         (bool success, ) = i_owner.call{value: address(this).balance}("");
         require(success);
     }
+
     //view and pure functions
 
     function getOwner() public view returns (address) {
