@@ -1,8 +1,6 @@
 # Hardhat Fund Me
-
-*This repo has been updated to work with Sepolia Testnet over Goerli.*
-
-This is a section of the Javascript Blockchain/Smart Contract FreeCodeCamp Course.
+ 
+ This is a section of the Javascript Blockchain/Smart Contract FreeCodeCamp Course.
 
 *[⌨️ (10:00:48) Lesson 7: Hardhat Fund Me](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=36048s)*
 
@@ -11,9 +9,6 @@ This is a section of the Javascript Blockchain/Smart Contract FreeCodeCamp Cours
 - [Hardhat Fund Me](#hardhat-fund-me)
 - [Getting Started](#getting-started)
   - [Requirements](#requirements)
-  - [Quickstart](#quickstart)
-  - [Typescript](#typescript)
-    - [Optional Gitpod](#optional-gitpod)
 - [Usage](#usage)
   - [Testing](#testing)
     - [Test Coverage](#test-coverage)
@@ -41,28 +36,6 @@ This project is apart of the Hardhat FreeCodeCamp video.
   - You'll know you've installed yarn right if you can run:
     - `yarn --version` and get an output like: `x.x.x`
     - You might need to [install it with `npm`](https://classic.yarnpkg.com/lang/en/docs/install/) or `corepack`
-
-## Quickstart
-
-```
-git clone https://github.com/PatrickAlphaC/hardhat-fund-me-fcc
-cd hardhat-fund-me-fcc
-yarn
-```
-
-## Typescript
-
-For the typescript edition, run:
-
-```
-git checkout typescript
-```
-
-### Optional Gitpod
-
-If you can't or don't want to run and install locally, you can work with this repo in Gitpod. If you do this, you can skip the `clone this repo` part.
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/PatrickAlphaC/hardhat-fund-me-fcc)
 
 # Usage
 
